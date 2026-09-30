@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
+  <title id="title">JETSKI ASCII artwork</title>
+  <desc id="desc">The JETSKI bird with outstretched wings, rendered from the original terminal ASCII artwork.</desc>
+  <rect width="960" height="380" rx="16" fill="#0d1117"/>
+  <text xml:space="preserve" fill="#f0f6fc" font-family="'Courier New', Courier, monospace" font-size="16" style="font-variant-ligatures:none">
+    <tspan x="120" y="46">                                    \  /</tspan>
+    <tspan x="120" y="65">                                    (())</tspan>
+    <tspan x="120" y="84">                                    ,~L_</tspan>
+    <tspan x="120" y="103">                                   2~~ &lt;\</tspan>
+    <tspan x="120" y="122">                                   )&gt;-\y(&gt;=</tspan>
+    <tspan x="120" y="141"> ___________________________________)v_\__________________________________</tspan>
+    <tspan x="120" y="160">(_// / / / (///////\___________((_/      _((___________/\\\\\\\) \ \ \ \\_)</tspan>
+    <tspan x="120" y="179">  (_/ / / / (////////////////////(c  (c /|\\\\\\\\\\\\\\\\\\\\) \ \ \ \_)</tspan>
+    <tspan x="120" y="198">    "(_/ / / /(/(/(/(/(/(/(/(/(/(/\_    /\)\)\)\)\)\)\)\)\)\)\ \ \ \_)"</tspan>
+    <tspan x="120" y="217">       "(_/ / / / / / / / / / / / /|___/\ \ \ \ \ \ \ \ \ \ \ \ \_)"</tspan>
+    <tspan x="120" y="236">          "(_(_(_(_(_(_(_(_(_(_(_(_[_]_|_)_)_)_)_)_)_)_)_)_)_)_)_)"</tspan>
+    <tspan x="120" y="255">                                   |    \</tspan>
+    <tspan x="120" y="274">                                  /      |</tspan>
+    <tspan x="120" y="293">                                 / /    /___</tspan>
+    <tspan x="120" y="312">                                /           "~~~~~__</tspan>
+    <tspan x="120" y="331">                                \_\_______________\_"_?</tspan>
+  </text>
+</svg>
