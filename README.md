@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="jetski-miner.svg" alt="JETSKI" width="800">
+<img src="assets/jetski-miner.svg" alt="JETSKI" width="800">
 
 <h1>JETSKI-Miner</h1>
 
