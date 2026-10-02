@@ -74,6 +74,7 @@ Join **JETSKI Pool** at **[pool.jetskipool.ai](https://pool.jetskipool.ai/)**
 | `--log LEVEL` | `0`: compact - `1`: UTC timestamps and uptime - `2`: also GPU details |
 | `--no-auto-update` | Disable automatic updates |
 | `--no-telemetry` | Disable publisher telemetry |
+| `--proxy URL` | Proxy server URL, e.g. socks5://PROXY_HOST:1080 |
 | `-V, --version` | Show the version |
 | `-h, --help` | Show help |
 
