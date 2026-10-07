@@ -113,6 +113,29 @@ Use `-a ALGORITHM` to override the algorithm field, e.g. `-a pearlhash`
 - **Backup pools:** Add one pool per line in **Pool URL**, or use `--pool2 HOST:PORT` in **Extra config arguments**
 - **Updates:** Keep the installation URL above. `--no-auto-update` disables both HiveOS package and miner updates
 
+## Docker
+
+
+```bash
+docker run -d --name jetski --gpus all --restart unless-stopped --stop-timeout 60 --log-opt max-size=10m --log-opt max-file=3 -v jetski-install:/opt/jetski jetskipool/jetski-miner:latest -a <algo> -u <wallet> -p <pool> -w <workername>
+```
+
+| Argument | Description |
+|---|---|
+| `-a` | Algorithm |
+| `-u` | Wallet address |
+| `-p` | Pool URL |
+| `-w` | Worker name |
+
+All standard miner arguments are supported. Keep the `jetski-install` volume to preserve signed automatic updates and miner state
+
+| Platform | Setup |
+|---|---|
+| Vast.ai | **Entrypoint** mode, then enter the miner arguments |
+| Clore.ai | SSH/command mode: `exec /usr/local/bin/jetski-start <miner arguments>` |
+
+
+
 ## Automatic updates
 
 **Latest optimizations. Automatic delivery:** Miner and kernel updates download in the background. Miner upgrades install in place and restart with your settings preserved
