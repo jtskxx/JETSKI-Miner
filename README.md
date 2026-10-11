@@ -41,6 +41,7 @@
 | --- | --- | --- | --- |
 | Pearl | PearlHash | `-a pearlhash` | 2% |
 | Quantus | Poseidon2 | `-a quantus` | 2% |
+| Monero | RandomX | `-a randomx` | 0.5% |
 
 
 ## Quick start
@@ -63,7 +64,7 @@ Join **JETSKI Pool** at **[pool.jetskipool.ai](https://pool.jetskipool.ai/)**
 
 | Option | Purpose |
 | --- | --- |
-| `-a, --algorithm NAME` | Algorithm: `pearlhash` or `quantus` |
+| `-a, --algorithm NAME` | Algorithm |
 | `-u, --user ADDRESS` | Payout wallet address |
 | `-p, --pool HOST:PORT` | Primary pool, explicit transport URLs are also accepted |
 | `-w, --worker NAME` | Optional worker name |
@@ -71,13 +72,16 @@ Join **JETSKI Pool** at **[pool.jetskipool.ai](https://pool.jetskipool.ai/)**
 | `--gpus LIST` | `auto`, `all` or indexes such as `0,2`; default: all visible GPUs |
 | `--list-gpus` | List GPUs and exit |
 | `--list-algorithms` | List supported algorithms and exit |
+| `--cpu-algorithm NAME` | Enable CPU mining alongside GPU mining|
+| `--cpu-pool HOST:PORT` | CPU mining pool, repeat for backup pools |
+| `--cpu-user WALLET` | Payout wallet address for CPU mining |
+| `--cpu-threads N` | CPU mining thread count, defaults to `all` |
 | `--log LEVEL` | `0`: compact - `1`: UTC timestamps and uptime - `2`: also GPU details |
 | `--no-auto-update` | Disable automatic updates |
 | `--no-telemetry` | Disable publisher telemetry |
-| `--proxy URL` | Proxy server URL, e.g. socks5://PROXY_HOST:1080 |
+| `--proxy URL` | Proxy server URL, e.g. `socks5://PROXY_HOST:1080` |
 | `-V, --version` | Show the version |
 | `-h, --help` | Show help |
-
 <details>
 <summary><strong>Keyboard controls</strong></summary>
 
