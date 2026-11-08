@@ -33,7 +33,6 @@
 - **Your GPU, tuned:** Auto-OC will benchmark your GPU and tune it for each kernel, within your temperature and/or power limits. ***Coming soon...***
 
 
-***Coming soon:** AMD GPU and CPU support*
 
 ## Supported algorithms
 
@@ -41,6 +40,7 @@
 | --- | --- | --- | --- |
 | Pearl | PearlHash | `-a pearlhash` | 2% |
 | Quantus | Poseidon2 | `-a quantus` | 2% |
+| Parano1d | Poseidon2b | `-a noid` | 2% |
 | Monero | RandomX | `-a randomx` | 0.5% |
 
 
