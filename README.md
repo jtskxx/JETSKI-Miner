@@ -30,17 +30,24 @@
 - **Always up to date:** Automatic miner and kernel updates, delivered in place. No action needed
 - **Always mining**: Automatic pool failover when pool goes offline and hot-key switch
 - **Better data. Better tuning**: Live telemetry overclocks, core/mem clocks, hashrate and efficiency in your pool **HASHRATE** tab
-- **Your GPU, tuned:** Auto-OC will benchmark your GPU and tune it for each kernel, within your temperature and/or power limits. ***Coming soon...***
+- **Your GPU, tuned:** Auto-OC will benchmark your GPU and tune it for each kernel, within your temperature and/or power limits. 
 
 
 
 ## Supported algorithms
+
+### GPU algorithms
 
 | Coin | Algorithm | Command-line selection | Developer fee |
 | --- | --- | --- | --- |
 | Pearl | PearlHash | `-a pearlhash` | 2% |
 | Quantus | Poseidon2 | `-a quantus` | 2% |
 | Parano1d | Poseidon2b | `-a noid` | 2% |
+
+### CPU algorithms
+
+| Coin | Algorithm | Command-line selection | Developer fee |
+| --- | --- | --- | --- |
 | Monero | RandomX | `-a randomx` | 0.5% |
 
 
