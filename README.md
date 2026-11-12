@@ -193,5 +193,4 @@ The same data helps push miner and kernel optimizations further
 
 Copyright © 2026 **JETSKI**. All rights reserved.
 
-Proprietary software under the **[JETSKI Proprietary Licence](LICENSE)**.
-](https://github.com/jtskxx/JETSKI-Miner)
+Proprietary software under the **[JETSKI Proprietary Licence](LICENSE)**
