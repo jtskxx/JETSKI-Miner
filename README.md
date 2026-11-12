@@ -172,6 +172,23 @@ The same data helps push miner and kernel optimizations further
 
 </details>
 
+## Auto-tune
+
+  **Your GPU, tuned while it mines.** Tries core and memory clocks on live mining and keeps a setting only if it beats your starting point
+
+  **Off by default.** Enable with **`--auto-tuner`** 
+
+  | Argument | Purpose |
+  | --- | --- |
+  | `--auto-tuner` | **Performance:** highest hashrate |
+  | `--auto-tuner efficiency` | **Efficiency:** best hashrate per watt, at most 10% slower |
+  | `--auto-tuner-max-temp C` | Temperature ceiling, 50–95 °C (default 90) |
+
+  - **Clocks only:** never touches power limit, offsets or fans, and stays within your power limit and temperature ceiling
+  - **Time:** up to 30 min after each start. Mining continues, but hashrate can dip during trials
+  - **Permissions:** root on Linux or Administrator on Windows, otherwise it mines untuned
+  - **On exit:** clocks return to your HiveOS settings or driver defaults
+
 ## Licence
 
 Copyright © 2026 **JETSKI**. All rights reserved.
