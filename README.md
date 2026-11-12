@@ -42,7 +42,7 @@
 | --- | --- | --- | --- |
 | Pearl | PearlHash | `-a pearlhash` | 2% |
 | Quantus | Poseidon2 | `-a quantus` | 2% |
-| Parano1d | Poseidon2b | `-a noid` | 2% |
+| Parano1d | Poseidon2b | `-a paranoid` | 2% |
 
 ### CPU algorithms
 
